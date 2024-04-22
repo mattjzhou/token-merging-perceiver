@@ -1,4 +1,4 @@
-from transformers import AutoModelForSequenceClassification, AutoConfig, AutoTokenizer
+from transformers import AutoModelForSequenceClassification, AutoModelForImageClassification, AutoConfig, AutoTokenizer, AutoImageProcessor
 from calflops import calculate_flops
 import tome
 

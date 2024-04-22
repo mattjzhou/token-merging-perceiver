@@ -42,7 +42,6 @@ if __name__ == '__main__':
     tome_args, training_args = parser.parse_args_into_dataclasses()
     print(f"Tome parameters {tome_args}\nTraining/eval parameters {training_args}")
 
-    checkpoint = "./MRPC_b32_l2e5/checkpoint-2300"
     dataset = load_dataset("nyu-mll/glue", tome_args.task_name)
     if tome_args.task_name == "stsb":
         num_labels = 1
