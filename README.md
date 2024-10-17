@@ -1,4 +1,4 @@
-# CS 4803 Final Project: Token Merging Perceiver
+# Efficient Machine Learning Final Project: Token Merging Perceiver
 All experiments were done using the huggingface library
 ## GLUE Experiments
 
